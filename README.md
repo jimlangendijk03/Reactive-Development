@@ -16,7 +16,7 @@ Reproducibility code for the analysis of release intervals following vulnerable 
 ## Requirements
 
 - A 64-bit operating system with enough memory and disk space for the OSV archive and JSON caches.
-- Python **3.11–3.13**. The repository pins Python 3.11 in `.python-version`; `uv` can install it automatically when needed.
+- Python **3.10 or newer**. The repository pins Python 3.11 in `.python-version`; `uv` can install it automatically when needed.
 - [`uv`](https://docs.astral.sh/uv/) for environment and dependency management.
 - Internet access when building the release cache, because the pipeline queries the PyPI JSON API, npm registry API, and Maven Central Search API.
 - The OSV full-database ZIP archive named `all.zip`.
