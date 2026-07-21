@@ -1,0 +1,25 @@
+[project]
+name = "updatespeed-research"
+version = "0.1.0"
+description = "Reproducibility pipeline for Reactive Development: How Security Flaws Influence Update Speed"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+authors = [
+  { name = "Jim Langendijk" },
+  { name = "Yury Zhauniarovich" },
+]
+dependencies = [
+  "cvss>=3.4",
+  "matplotlib>=3.9",
+  "numpy>=1.26",
+  "orjson>=3.10",
+  "packaging>=24.0",
+  "pandas>=2.2",
+  "requests>=2.32",
+  "scikit-posthocs>=0.9",
+  "scipy>=1.13",
+  "tqdm>=4.66",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,16 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local research data and generated caches
+# Keep the directories, but do not commit large or mutable data files.
+data/osv/*
+!data/osv/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
