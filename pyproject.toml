@@ -1,0 +1,18 @@
+[project]
+name = "updatespeed"
+version = "0.1.0"
+description = "Replication package for ESORICS'26 paper"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "tqdm",
+    "orjson",
+    "packaging",
+    "pandas",
+    "matplotlib",
+    "numpy",
+    "scipy",
+    "scikit-posthocs",
+    "cvss"
+]
